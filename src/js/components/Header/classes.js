@@ -13,6 +13,13 @@ export default theme => ({
         height: 32,
         lineHeight: '32px',
         zIndex: 99,
+        '-webkitAppRegion': 'drag',
+
+        '& div': {
+            minWidth: 32,
+            minHeight: 32,
+            '-webkitAppRegion': 'no-drag',
+        },
 
         '& i': {
             display: 'inline-block',
@@ -22,6 +29,7 @@ export default theme => ({
             fontSize: 20,
             textAlign: 'center',
             cursor: 'pointer',
+            '-webkitAppRegion': 'no-drag',
 
             '&:hover': {
                 color: `${theme.header.iconHoverColor} !important`,

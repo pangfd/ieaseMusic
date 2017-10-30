@@ -61,7 +61,7 @@ export default theme => {
                 bottom: 2,
                 display: 'inline-block',
                 padding: '10px 6px',
-                fontFamily: 'Roboto',
+                fontFamily: 'Roboto, Microsoft YaHei UI, Microsoft YaHei',
                 fontSize: 12,
                 color: '#fff',
                 background: '#000',

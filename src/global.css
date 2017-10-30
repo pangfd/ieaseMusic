@@ -10,6 +10,8 @@
     user-select: none;
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
+    font-family: "XHei Microsoft", "Microsoft YaHei UI", -apple-system, BlinkMacSystemFont, "Helvetica", "Roboto", "Segoe UI", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif !important;
+    text-shadow: 0.01em 0.01em 0.01em #999999!important;
 }
 
 html,
@@ -27,7 +29,6 @@ body {
     overflow-y: hidden;
     font-size: 13px;
     font-family: -apple-system, BlinkMacSystemFont, "Helvetica", "Roboto", "Segoe UI", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
-    -webkit-app-region: drag;
 }
 
 .scroll-horizontal {

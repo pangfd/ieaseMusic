@@ -399,7 +399,7 @@ const createMainWindow = () => {
         vibrancy: 'medium-light',
         backgroundColor: 'none',
         // Headless
-        frame: !isOsx,
+        frame: false,
     });
 
     mainWindow.loadURL(`file://${__dirname}/src/index.html`);

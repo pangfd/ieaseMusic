@@ -153,7 +153,7 @@ export default theme => ({
             margin: '5px 0 1px',
 
             '& + span': {
-                fontFamily: 'Roboto',
+                fontFamily: 'Microsoft YaHei UI, Microsoft YaHei',
                 fontSize: 12,
                 textTransform: 'uppercase',
             }
